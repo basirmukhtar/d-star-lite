@@ -57,7 +57,7 @@ WINDOW_SIZE = [(WIDTH + MARGIN) * X_DIM + MARGIN,
 screen = pygame.display.set_mode(WINDOW_SIZE)
 
 # Set title of screen
-pygame.display.set_caption("D* Lite Path Planning")
+pygame.display.set_caption("D* Lite in Google UAS Airspace System")
 
 # Loop until the user clicks the close button.
 done = False
