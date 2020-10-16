@@ -7,7 +7,7 @@ class GridWorld(Graph):
         self.y_dim = y_dim
         # First make an element for each row (height of grid)
         self.cells = [0] * y_dim
-        # Go through each element and replace with row (width of grid)
+        # Go through each element and replace with row (width of grid) 
         for i in range(y_dim):
             self.cells[i] = [0] * x_dim
         # will this be an 8-connected graph or 4-connected?
